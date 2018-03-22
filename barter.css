@@ -1,0 +1,126 @@
+body{
+    /* padding-top: 200px; */
+    padding-left: -50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+img {
+    height: 27px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.tabs a{
+    text-decoration: none;
+    color: rgb(61, 61, 71)
+}
+.top{
+    border-bottom: 1px solid rgb(61, 61, 71);
+    width: 400px;
+}
+.top a:focus{
+    border-bottom: 1px solid rgb(37, 37, 190);
+    color: rgb(37, 37, 190)
+}
+.reg{
+    color: #27278a
+}
+.menu{
+    float: right;
+}
+.mid{
+    padding-top: 20px;
+}
+.field{
+    border: none;
+    border-bottom: 1px solid rgb(158, 158, 165);
+    height: 60px;
+    transition: all 0.3s ease-in;
+}
+.fds{
+    margin-top: -10px;
+}
+.cnt{
+    border: none;
+    border-bottom: 1px solid rgb(158, 158, 265);
+    height: 61px;
+}
+.field:focus{
+    outline-width: 0;
+    border-bottom: 1px solid rgb(37, 37, 190);
+}
+.cnt:focus{
+    outline-width: 0;
+}
+.bttn{
+    height: 50px;
+    width: 250px;
+    border-radius: 40px;
+    background-color: rgb(141, 141, 187);
+    color: whitesmoke;
+    transition: all 0.3s ease-in;
+}
+.bttn:hover{
+    background-color: rgb(37, 37, 190);
+}
+.sub{
+    transition: all 0.3s ease-in;
+}
+.sub:hover{
+    padding: 10px;
+}
+button div{
+    display: inline-block;
+}
+.fp{
+    font-size: 12px;
+    margin-left: 290px;
+    /* float: right; */
+    color: rgb(109, 109, 248)
+}.fp a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.log{
+    color: rgb(109, 109, 248)
+}
+.log a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.fcb{
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+    background-color: rgb(35, 35, 122);
+    height: 50px;
+    width: 250px;
+    border-radius: 40px;
+    color: whitesmoke;
+}
+.ggle{
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+    background-color: rgb(223, 61, 61);
+    height: 50px;
+    width: 250px;
+    border-radius: 40px;
+    color: whitesmoke;
+}
+.fcb:hover{
+    /* background-color: blue; */
+    box-shadow: 10px 10px 10px #dbdbdb;
+    height:60px;
+    width: 260px;
+}
+.ggle:hover{
+    /* background-color: red; */
+    box-shadow: 10px 10px 10px #dbdbdb;
+    height: 60px;
+    width: 260px;
+}
+.fb, .gg{
+    margin-right: 100px;
+}
+.container{
+    padding-bottom: 200px;
+}
